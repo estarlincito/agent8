@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./code.js"></script>
+    <title>Agent8</title>
+  </head>
+  <body>
+    <main>
+      <form id="form">
+        <h1>Agent8 Notes</h1>
+        <br />
+        <div>
+          <label for="agentname">Agent name:</label>
+          <input
+            name="agentname"
+            class="fill"
+            type="text"
+            value="Estarlin R"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="name">Name:</label>
+          <input name="name" class="fill" type="text" required />
+        </div>
+
+        <div>
+          <label for="mnp">MNP:</label>
+          <input
+            name="mnp"
+            class="fill"
+            type="tel"
+            minlength="10"
+            maxlength="12"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="callback">Call back:</label>
+          <input
+            name="callback"
+            class="fill"
+            type="tel"
+            minlength="10"
+            maxlength="12"
+          />
+        </div>
+
+        <div>
+          <label for="dealercode">Dealer code:</label>
+          <input
+            name="dealercode"
+            class="fill"
+            type="number"
+            minlength="6"
+            maxlength="6"
+          />
+        </div>
+
+        <div>
+          <label for="issue">Issue:</label>
+          <textarea name="issue" class="fill" required></textarea>
+        </div>
+
+        <div>
+          <label for="ownership">Ownership:</label>
+          <input name="ownership" class="fill" type="text" value=" / /" />
+        </div>
+
+        <div>
+          <label for="imei">IMEI:</label>
+          <input
+            name="imei"
+            class="fill"
+            type="number"
+            minlength="15"
+            maxlength="15"
+          />
+        </div>
+
+        <div>
+          <label for="eid">EID:</label>
+          <input
+            name="eid"
+            class="fill"
+            type="number"
+            minlength="32"
+            maxlength="32"
+          />
+        </div>
+
+        <div>
+          <label for="email">Email:</label>
+          <input name="email" class="fill" type="email" />
+        </div>
+
+        <div>
+          <label for="address">Address:</label>
+          <textarea name="address" class="fill"></textarea>
+        </div>
+
+        <div>
+          <label for="resolution">Resolution:</label>
+          <textarea name="resolution" class="fill" required></textarea>
+        </div>
+
+        <div>
+          <label for="notes">Notes:</label>
+          <textarea name="notes" class="fill"></textarea>
+        </div>
+
+        <button id="copy">Copy</button>
+      </form>
+    </main>
+  </body>
+</html>
